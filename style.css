@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('header.css');
+@import url('main.css');
+@import url('footer.css');
+@import url('links.css');
+@import url('scrollbar.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1440px;
+    min-width: 320px;
+    max-height: 2810px;
+    width: 100vw;
+    margin: 50px auto;
+    font-family: 'Open Sans';
+}
+
+button {
+    min-width: 150px;
+    min-height: 40px;
+    background-color: rgba(0, 164, 229, 1);
+    font-family: 'OpenSans';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1440px) {
+    .header__navigation {
+        margin: 0 calc(50px + (250 - 50) * ((100vw - 320px) / (1440 - 320)));
+    }
+
+    .main__about,
+    .main__services {
+    margin: 30px calc(50px + (250 - 50) * ((100vw - 320px) / (1440 - 320))) 45px;
+}
+
+    .footer__main {
+        padding: calc(10px + (40 - 10) * ((100vw - 320px) / (1440 - 320)))
+        calc(60px + (240 - 60) * ((100vw - 320px) / (1440 - 320)));
+    }
+}

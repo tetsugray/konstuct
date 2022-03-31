@@ -1,0 +1,14 @@
+.footer__links a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.header__navigation a:visited,
+.main__about_article a:visited {
+    color: rgba(72, 85, 91, 1);
+}
+
+.header__navigation a:hover,
+.main__about_article a:hover,
+.footer__links a:hover {
+    color: rgba(0, 164, 229, 1);
+}

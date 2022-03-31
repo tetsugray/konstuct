@@ -1,0 +1,26 @@
+.header__navigation_links::-webkit-scrollbar,
+.main__about_cards::-webkit-scrollbar,
+.main__about_article::-webkit-scrollbar,
+.main__services_all p::-webkit-scrollbar,
+.main__services_cards::-webkit-scrollbar,
+.footer__main::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+}
+
+.header__navigation_links::-webkit-scrollbar-thumb,
+.main__about_cards::-webkit-scrollbar-thumb,
+.main__about_article::-webkit-scrollbar-thumb,
+.main__services_all p::-webkit-scrollbar-thumb,
+.main__services_cards::-webkit-scrollbar-thumb {
+    background-color: rgba(72, 85, 91, 1);
+    border-radius: 10px;
+}
+
+.footer__main::-webkit-scrollbar-track {
+    background-color: rgba(20, 26, 32, 1);
+}
+
+.footer__main::-webkit-scrollbar-thumb {
+    color: rgb(255, 255, 255);
+}
