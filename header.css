@@ -3,7 +3,7 @@ header {
 }
 
 .header__img {
-    background: url('images/header__bg.png') top / contain no-repeat;
+    background: url('./images/header__bg.png') top / contain no-repeat;
     max-height: 768px;
     height: 53vw;
     display: flex;

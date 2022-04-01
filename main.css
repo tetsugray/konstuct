@@ -85,11 +85,11 @@
 }
 
 .main__about_card-manage {
-    background: url('images/manage.png') bottom / contain no-repeat;
+    background: url('./images/manage.png') bottom / contain no-repeat;
 }
 
 .main__about_card-build {
-    background: url('images/build.png') bottom / contain no-repeat;
+    background: url('./images/build.png') bottom / contain no-repeat;
     margin-right: 5px;
 }
 
@@ -179,7 +179,7 @@
 .main__work {
     max-height: 499px;
     height: 34.5vw;
-    background: url('images/main__bg.png') bottom / contain no-repeat;
+    background: url('./images/main__bg.png') bottom / contain no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
