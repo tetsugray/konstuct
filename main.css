@@ -81,15 +81,15 @@
 }
 
 .main__about_card-plan {
-    background: url('/images/plan.png') bottom / contain no-repeat;
+    background: url('images/plan.png') bottom / contain no-repeat;
 }
 
 .main__about_card-manage {
-    background: url('/images/manage.png') bottom / contain no-repeat;
+    background: url('images/manage.png') bottom / contain no-repeat;
 }
 
 .main__about_card-build {
-    background: url('/images/build.png') bottom / contain no-repeat;
+    background: url('images/build.png') bottom / contain no-repeat;
     margin-right: 5px;
 }
 

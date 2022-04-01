@@ -39,16 +39,29 @@ button {
 
 @media (max-width: 1440px) {
     .header__navigation {
-        margin: 0 calc(50px + (250 - 50) * ((100vw - 320px) / (1440 - 320)));
+        margin: 0 calc(30px + 220 * ((100vw - 320px) / 1120));
+    }
+
+    .header__img_title h1 {
+        font-size: calc(30px + 30 * ((100vw - 320px) / 1120));
+        line-height: calc(40px + 30 * ((100vw - 320px) / 1120));
     }
 
     .main__about,
     .main__services {
-    margin: 30px calc(50px + (250 - 50) * ((100vw - 320px) / (1440 - 320))) 45px;
-}
+    margin: 30px calc(50px + 200 * ((100vw - 320px) / 1120)) 45px;
+    }
+
+    .footer__signup {
+        font-size: calc(12px + 10 * (100vw - 320px) / 1120);
+    }
+
+    .footer__signup input {
+        width: calc(70px + 180 * (100vw - 320px) / 1120);
+    }
 
     .footer__main {
-        padding: calc(10px + (40 - 10) * ((100vw - 320px) / (1440 - 320)))
-        calc(60px + (240 - 60) * ((100vw - 320px) / (1440 - 320)));
+        padding: calc(10px + 30 * ((100vw - 320px) / 1120))
+        calc(60px + 180 * ((100vw - 320px) / 1220));
     }
 }
