@@ -81,7 +81,7 @@
 }
 
 .main__about_card-plan {
-    background: url('images/plan.png') bottom / contain no-repeat;
+    background: url('./images/plan.png') bottom / contain no-repeat;
 }
 
 .main__about_card-manage {
